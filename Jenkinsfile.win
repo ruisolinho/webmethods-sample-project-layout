@@ -30,7 +30,7 @@ pipeline {
         stage('Validate') {
             steps {
                 script {
-                    bat 'ls -la'
+                    bat 'dir'
                 }
             }
         }
