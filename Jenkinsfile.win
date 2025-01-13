@@ -30,7 +30,7 @@ pipeline {
         stage('Validate') {
             steps {
                 script {
-                    sh 'ls -la'
+                    bat 'ls -la'
                 }
             }
         }
